@@ -1,0 +1,60 @@
+* {
+    margin: unset;
+    padding: unset;
+}
+
+body {
+    background-image: url('image/istockphoto-139969149-170667a.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mot {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+.mot1 {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+
+.btn0 {
+    position: absolute;
+    background-color: gold;
+    width: 130px;
+    text-align: center;
+    border: 0px solid gold;
+    border-radius: 40px 40px;
+    top: 370px;
+    left: 300px;
+}
+.btn0>a{
+    color:white;    
+}
+.btn0:hover{
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+}
+.btn0>a:hover{
+    color: gold;
+}
+
+.cd12 {
+    position: absolute;
+    top: 250px;
+}
+
+.navbar-expand {
+    position: fixed;
+}
+
+.bout {
+    display: flex;
+    justify-content: space-between;
+}
